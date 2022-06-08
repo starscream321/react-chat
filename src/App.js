@@ -6,7 +6,6 @@ import {
     ButtonGroup,
     Button,
     FormControl,
-    Input,
     InputLabel,
     Select,
     MenuItem,
@@ -16,8 +15,6 @@ import {
 function App() {
 
     const api = new Api('5bec1a9a477682cb1af250155a6bea88')
-    
-    const [status, setStatus] = useState('')
     const [maps, setMaps] = useState([])
 
 
