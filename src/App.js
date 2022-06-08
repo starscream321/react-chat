@@ -40,7 +40,6 @@ function App() {
     const changeMap = (e) => {
         api.changeLevel(e.target.value).then((res) => {
             console.log(res.message)
-            setStatus(res.message)
         })
     }
 
